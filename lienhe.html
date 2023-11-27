@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>we Are One Travel Blog</title>
+	<title>Fantasy Travel Blog</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -87,11 +87,11 @@
 
 	<!--================Header Menu Area =================-->
 	<header class="header_area">
-		<div class="main_menu">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container">
+		<div class="main_menu ">
+			<nav class="navbar navbar-expand-lg navbar-light" >
+				<div class="container bg-white">
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html">
+					<a class="navbar-brand logo_h" href="/index.html">
 						<img src="images/logo1.png" alt="" width="80" height="95">
 					</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -99,7 +99,8 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
-					</button>
+					</button> 
+					<!-- navbar - toggler: Thanh dieu huong, type: Kieu nut, data-toggle: Kich hoat thanh phan cu the khi phim duoc nhan, data-target: Doi tuong khi phim duoc nhan,  -->
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-center mx-auto">
@@ -109,35 +110,33 @@
 							    <li class="nav-item submenu dropdown active">
 										<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 										 aria-expanded="false">ĐIỂM ĐẾN <i class="fa fa-caret-down"></i></a>
-								    <ul class="dropdown-menu">
-											<li class="nav-item">
-												<a class="nav-link" href="nhomdulich.html">MIỀN BẮC</a>
-											
-											</li>
-											<li class="nav-item">
-												<a class="nav-link" href="single-blog.html">MIỀN TRUNG</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link" href="single-blog.html">MIỀN NAM</a>
-											</li>
-									</ul>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="diemdenmienbac.html">MIỀN BẮC</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="diemdenmienbac.html">MIỀN TRUNG</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="diemdenmienbac.html">MIỀN NAM</a>
+                                            </li>
+                                        </ul>
 								</li>
 							</li>
 							<li class="nav-item submenu dropdown active">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">ẨM THỰC <i class="fa fa-caret-down"></i></a>
 							<ul class="dropdown-menu">
-									<li class="nav-item">
-										<a class="nav-link" href="amthuchanoi.html">ẨM THỰC HÀ NỘI</a>
-									
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="amthucquangninh.html">ẨM THỰC QUẢNG NINH</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="amthuchue.html">ẨM THỰC HUẾ</a>
-									</li>
-									<!-- các mục khác-->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="amthuc.html">ẨM THỰC MIỀN BẮC</a>
+                                
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="amthuc.html">ẨM THỰC MIỀN TRUNG</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="amthuc.html">ẨM THỰC MIỀN NAM</a>
+                                </li>
 							</ul>
 						</li>
 					</li>
@@ -149,15 +148,15 @@
 								 aria-expanded="false">LỜI KHUYÊN KHI ĐI DU LỊCH <i class="fa fa-caret-down"></i></a>
 								<ul class="dropdown-menu">
 									<li class="nav-item">
-										<a class="nav-link" href="dulichnhom.html">Du lịch hội nhóm</a>
+										<a class="nav-link" href="nhomdulich.html">DU LỊCH HỘI NHÓM</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="dulicmotminh.html">Du lịch một mình</a>
+										<a class="nav-link" href="dulichmotminh.html">DU LỊCH CÁ NHÂN</a>
 									</li>
 								</ul>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="lienhe.html">LIÊN HỆ</a>
+								<a class="nav-link  text-info" href="gioithieu.html">LIÊN HỆ</a>
 							</li>
 						</ul>
 						<ul class="nav navbar-nav ml-auto search">
@@ -180,87 +179,123 @@
 		</div>
 	</header>
 	<!--================ Header Menu Area =================-->
-       <!--===============Contact Area =================-->
-    <section class="contact_area section-gap">
-        <div class="container">
-         <div id="mapBox" class="mapBox" data-lat="40.701083" data-lon="-74.1522848" data-zoom="13" data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia." data-mlat="40.701083" data-mlon="-74.1522848" style="position: relative; overflow: hidden;">
-			<div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);">
-				<div class="gm-err-container">
-					<div class="gm-err-content">
-						<div class="gm-err-icon">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.327460903775!2d106.8148739739133!3d21.019579580627436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a8a1d7c000001%3A0x1e5cff07e0fdf7cb!2sHa%20Long%20University!5e0!3m2!1svi!2s!4v1698997945772!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen=""></iframe></div>
-							</div>
-						</div>
-					</div>
-				</div>
-		<div class="map-wrap" style="width:100%;" id="mapBox"></div>
-		<div class="row">
-			<div class="col-lg-3">
-				<div class="contact_info">
-					<div class="info_item">
-						<i class="lnr lnr-home"></i>
-						<h6>Thành Phố Uông Bí, tỉnh Quảng Ninh</h6>
-						<p>Trường Đại học Hạ Long</p>
-					</div>
-					<div class="info_item">
-						<i class="lnr lnr-phone-handset"></i>
-						<h6><a href="#">0825417654</a></h6>
-						<p>Mỗi ngày từ 7 giờ đến 21 giờ</p>
-					</div>
-					<div class="info_item">
-						<i class="lnr lnr-envelope"></i>
-						<h6><a href="#">support@weareone.com</a></h6>
-						<p>Chúng tôi sẽ giúp bạn giải quyết một số vấn đề liên quan đến việc đi du lịch!</p>
-					</div>
-				</div>
+
+
+
+	<!--================ Travel Category Area =================-->
+		
+	 <!-- ======= About Section ======= -->
+	 <section class="about" data-aos="fade-up">
+		<div class="container">
+  
+		  <div class="row">
+			<div class="col-lg-6">
+			  <img src="img/About.jpg" class="img-fluid" alt="">
 			</div>
-			<div class="col-lg-9">
-				<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-					<div class="col-md-6">
-						<div class="form-group">
-							<input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
-						</div>
-						<div class="form-group">
-							<input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
-						</div>
-						<div class="form-group">
-							<input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="form-group">
-							<textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
-						</div>
-					</div>
-					<div class="col-md-12 text-right">
-						<button type="submit" value="submit" class="btn submit_btn">Send Message</button>
-					</div>
-				</form>
+			<div class="col-lg-6 pt-4 pt-lg-0">
+			  <h3>Đây là dự án thiết kế website của nhóm 1 lớp KHMT K7C.</h3>
+			  <p class="fst-italic">
+				Chúng em là những người rất đam mê về du lịch nhưng lại đang rất đắn đo suy nghĩ làm sao để chia sẻ với mọi người những cái nhìn tổng quát khi đi du lịch, vì thế chúng em quyết định tạo ra website blog du lịch với mục đích chia sẻ và mang đến cho mọi người cái nhìn rõ nét và kinh nghiệm khi đi du lịch, Trang web sẽ cung cấp nhiều loại thông tin bao gồm:
+			  </p>
+			  <ul>
+				<li><i class="bi bi-check2-circle"></i>Lịch sử, văn hóa, lễ hội, ẩm thực,… gắn liền với địa điểm du lịch mà bạn đang hướng tới. Với những kinh nghiệm và thông tin chúng em có được, bạn sẽ phần nào hình dung rõ hơn về bức tranh cuộc sống địa phương. Dựa vào đó, chúng ta có thể lựa chọn các hoạt động phù hợp với sở thích và túi tiền của mình. </li>
+				<li><i class="bi bi-check2-circle"></i>Những lời khuyên cho bạn khi đi du lịch hay những nét văn hóa đặc trưng, ​​hoạt động làm việc và sinh hoạt hàng ngày của người dân bản địa. </li>
+				<li><i class="bi bi-check2-circle"></i>Thông tin về hệ thống cơ sở lưu trú từ bình dân đến cao cấp, resort cao cấp,… cũng sẽ được chúng em đề cập đầy đủ, khách quan. </li>
+			  </ul>
+			  <p>
+				Đây là sản phẩm đầu tay do nhóm 1 của KHMT K7C thiết kế, có thể sẽ có những sai sót trong quá trình thiết kế, hy vọng mọi người sẽ đóng góp ý kiến để chúng em có thể cải thiện website tốt hơn trong tương lai, Chúng em xin cảm ơn.
+			  </p>
+			</div>
+		  </div>
+  
+		</div>
+	  </section><!-- End About Section -->
+  
+  
+ 
+	  <!-- ======= Tetstimonials Section ======= -->
+	  <section class="testimonials" data-aos="fade-up">
+		<div class="container">
+  
+		  <div class="section-title">
+			<h2>Các thành viên trong dự án</h2>
+		  </div>
+		  <div class="testimonials-carousel swiper">
+			<div class="swiper-wrapper">
+			  <div class="testimonial-item swiper-slide">
+				<img src="img/testimonials/103930364_p0.jpg" class="testimonial-img" alt="">
+				<h3>Khiếu Xuân Bách</h3>
+				<h4>Sinh viên KHMT K7C</h4>
+				<p>
+				  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+				  Phụ trách thiết kế mảng giới thiệu, blog và ẩm thực của website
+				  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+				</p>
+			  </div>
+  
+			  <div class="testimonial-item swiper-slide">
+				<img src="assets/img/testimonials/" class="testimonial-img" alt="">
+				<h3>Bàn Anh Dũng</h3>
+				<h4>Sinh Viên KHMT K7C</h4>
+				<p>
+				  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+		   
+				  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+				</p>
+			  </div>
+  
+			  <div class="testimonial-item swiper-slide">
+				<img src="assets/img/testimonials/" class="testimonial-img" alt="">
+				<h3>Lục Thị Mộc</h3>
+				<h4>Sinh Viên KHMT K7C</h4>
+				<p>
+				  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+				  
+				  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+				</p>
+			  </div>
+			</div>
+			<div class="swiper-pagination"></div>
+		  </div>
+  
+		</div>
+	  </section><!-- End Ttstimonials Section -->
+  
+	</main><!-- End #main -->
+  
+  
+	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+	<!--================ start footer Area  =================-->
+	<footer class="footer-area section-gap">
+		<div class="container">
+			<div class="single-footer-widget footer_middle">
+				<img src="images/footer_logo.png" alt="" width="200" height="170">
+				<p class="mt-50">Stay updated with our latest trends</p>
+				<p class=" thongtin">Họ và tên: </p>Bàn Anh Dũng <br> Lục Thị Mộc <br> Khiếu Xuân Bách
+				<p class="thongtin">Lớp: </p>Khoa học máy tính K7C
+			</div>
+			</div>
+			<div class="footer-bottom footer_copy">
+				<div class="footer-social">
+					<a href="#">
+						<i class="fa fa-facebook"></i>
+					</a>
+					<a href="#">
+						<i class="fa fa-twitter"></i>
+					</a>
+				</div>
+				<p class="col-lg-12 footer-text">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				Copyright &copy;
+				<script>document.write(new Date().getFullYear());
+				</script> WE ARE ONE | BẢN QUYỀN THUỘC VỀ NHÓM 1
+				<i class="fa fa-heart-o" aria-hidden="true"></i>
+			
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 			</div>
 		</div>
-	</div>
-    <!--================Contact Area =================-->
-
-     <!--================ start footer Area  =================-->
-	 <hr class="custom-hr">
-	 <footer class="footer-area mt-3">
-		 <div class="container">
-			 <div class="single-footer-widget footer_middle col-md-12">
-				 <p class="text-center col-12 mt-3">
-				 Thông tin nhóm:<br>
-				 <hr>
-				 Bàn Anh Dũng <br> Lục Thị Mộc <br> Khiếu Xuân Bách<br>
-				 <hr>
-				 Khoa học máy tính K7C
-				 </p>
-				 <hr>
-				 <a href="/index.html" class="fa fa-facebook mx-2"></a> 
-				 <a href="/index.html" class="fa fa-github text-black-50 mx-2"></a> 
-				 <a href="/index.html" class="fa fa-youtube text-danger mx-2"></a>
-			 </div>
-			 
-		 </div>
-	 </footer>
+	</footer>
 	<!--================ End footer Area  =================-->
 
 	<!-- ####################### Start Scroll to Top Area ####################### -->
