@@ -1,0 +1,1429 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>we Are One Travel Blog</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<link rel="stylesheet" href="vendors/animate-css/animate.css">
+	<link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- khai báo thư viện của javascript-->
+
+	<style>
+						.miennam-menu {
+					position: relative;
+				}
+
+				.miennam-menu .dropdown-menu {
+					position: absolute;
+					top: 0;
+					left: 100%; /* Để menu hiển thị bên phải chữ MIỀN BẮC */
+					margin-left: 10px; /* Khoảng cách giữa chữ MIỀN BẮC và menu dropdown */
+					display: none;
+				}
+
+				.miennam-menu:hover .dropdown-menu {
+					display: block;
+				}
+				.home_banner_area {
+        width: 100%;
+        height: 100vh; /* Chiều cao full màn hình */
+        overflow: hidden;
+        position: relative;
+    }
+
+    .owl-carousel {
+        width: 100%;
+        height: 100%;
+    }
+	.owl-carousel img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Thu nhỏ ảnh để vừa với kích thước phần tử chứa */
+        object-position: center; /* Căn giữa ảnh */
+    }
+	.imgnoibat wow fadeIn{ 
+         width: 100;
+		 height: 100;
+	}
+	.read_more {
+    color: #FF0000; /* Đổi màu chữ "Read More" thành màu đỏ (#FF0000) */
+    }
+
+     .blog-meta a {
+    color: #0000FF; /* Đổi màu ngày tháng và số lượng bình luận thành màu xanh (#0000FF) */
+     }
+	 .cat-left img {
+			width: 100%; /* Đặt chiều rộng hình ảnh theo kích thước của phần tử chứa */
+			height: auto; /* Đảm bảo tỷ lệ khung hình không bị thay đổi */
+			object-fit: cover; /* Hiển thị toàn bộ hình ảnh bên trong kích thước đã đặt */
+	 }
+	 .cat-right{
+		width: 100%; /* Đặt chiều rộng hình ảnh theo kích thước của phần tử chứa */
+			height: auto; /* Đảm bảo tỷ lệ khung hình không bị thay đổi */
+			object-fit: cover; 
+	 }
+	
+	
+	</style>
+</head>
+
+<body>
+
+	<!--================Header Menu Area =================-->
+	<header class="header_area position-sticky position-fixed">
+		<div class="main_menu ">
+			<nav class="navbar navbar-expand-lg navbar-light" >
+				<div class="container bg-white">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="/index.html">
+						<img src="/images/logo1.png" alt="" width="80" height="95">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button> 
+					<!-- navbar - toggler: Thanh dieu huong, type: Kieu nut, data-toggle: Kich hoat thanh phan cu the khi phim duoc nhan, data-target: Doi tuong khi phim duoc nhan,  -->
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav justify-content-center mx-auto">
+							<li class="nav-item">
+								<a class="nav-link text-info" href="/index.html">TRANG CHỦ</a>
+							</li>
+							    <li class="nav-item submenu dropdown active">
+										<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+										 aria-expanded="false">ĐIỂM ĐẾN <i class="fa fa-caret-down"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/diemdenmienbac.html">MIỀN BẮC</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/diemdenmienbac.html">MIỀN TRUNG</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/diemdenmienbac.html">MIỀN NAM</a>
+                                            </li>
+                                        </ul>
+								</li>
+							</li>
+							<li class="nav-item submenu dropdown active">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								 aria-expanded="false">ẨM THỰC <i class="fa fa-caret-down"></i></a>
+							<ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="amthuc.html">ẨM THỰC MIỀN BẮC</a>
+                                
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="amthuc.html">ẨM THỰC MIỀN TRUNG</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="amthuc.html">ẨM THỰC MIỀN NAM</a>
+                                </li>
+							</ul>
+						</li>
+					</li>
+							<li class="nav-item">
+								<a class="nav-link" href="blog.html">BLOG</a>
+							</li>
+							<li class="nav-item submenu dropdown active">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								 aria-expanded="false">LỜI KHUYÊN KHI ĐI DU LỊCH <i class="fa fa-caret-down"></i></a>
+								<ul class="dropdown-menu">
+									<li class="nav-item">
+										<a class="nav-link" href="nhomdulich.html">DU LỊCH HỘI NHÓM</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="single-blog.html">DU LỊCH CÁ NHÂN</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html">LIÊN HỆ</a>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav ml-auto search">
+								<li class="nav-item d-flex align-items-center mr-10">
+									<div class="menu-form">
+										<form>
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Search here">
+											</div>
+										</form>
+									</div>
+									<button type="submit" class="search-icon">
+										<i class="lnr lnr-magnifier"></i>
+									</button>
+								</li>
+							</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--================ Header Menu Area =================-->
+
+	<!--================ Home Banner Area =================-->
+	<section class="home_banner_area">
+		<div class="owl-carousel owl-theme" id="home-owl">
+			<div class="slide-item owl-lazy" data-src="images/halongslideshow1.jpg">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5"></div>
+						<div class="col-lg-7">
+							<div class="blog_text_slider">
+								<div class="blog_text">
+									<img class="img-fluid" src="img/banner/banner-img.png" alt="">
+									<div class="blog-meta bottom d-flex justify-content-between align-items-center flex-wrap">
+										<div class="meta">
+											<span class="icon fa fa-calendar"></span> July 14, 2023
+											<span class="icon fa fa-comments"></span> 05
+										</div>
+										<div>
+											<a class="read_more" href="#">Read More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="slide-item owl-lazy" data-src="images/binhlieuslideshow2.jpg">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5"></div>
+						<div class="col-lg-7">
+							<div class="blog_text_slider">
+								<div class="blog_text">
+									<img class="img-fluid" src="img/banner/banner-img2.png" alt="">
+									<div class="blog-meta bottom d-flex justify-content-between align-items-center flex-wrap">
+										<div class="meta">
+											<span class="icon fa fa-calendar"></span> July 14, 2023
+											<span class="icon fa fa-comments"></span> 05
+										</div>
+										<div>
+											<a class="read_more" href="#">Read More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="slide-item owl-lazy" data-src="images/Mocchauslideshow.jpg">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5"></div>
+						<div class="col-lg-7">
+							<div class="blog_text_slider">
+								<div class="blog_text">
+									<img class="img-fluid" src="img/banner/banner-img3.png" alt="">
+									<div class="blog-meta bottom d-flex justify-content-between align-items-center flex-wrap">
+										<div class="meta">
+											<span class="icon fa fa-calendar"></span> July 14, 2023
+											<span class="icon fa fa-comments"></span> 05
+										</div>
+										<div>
+											<a class="read_more" href="#">Read More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script>
+		$(document).ready(function () {
+			$("#home-owl").owlCarousel({
+				items: 1, // Số lượng ảnh hiển thị  cùng một lúc
+				loop: true, // Lặp vô hạn
+				autoplay: true, // Tự động trình chiếu
+				autoplayTimeout: 3000, // Thời gian mỗi ảnh hiển thị (3 giây)
+				smartSpeed: 1000, // Tốc độ chuyển đổi
+				dots: false, // Ẩn nút chuyển đổi
+				nav: false, // Ẩn nút điều hướng
+			});
+		});
+		</script>
+	<!--================ End Home Banner Area =================-->
+	<!--================ Travel Category Area =================-->
+		
+	<section class="travel_category">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title">
+						<h1>CÁC ĐỊA ĐIỂM DU LỊCH NỔI BẬT</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row owl-carousel" id="travel_cat" data-autoplay="true" data-autoplay-speed="1500">
+				<div class="imgnoibat wow fadeIn" data-wow-duration="1s">
+					<figure>
+						<img class="img-fluid" src="images/halong.jpg" alt="">
+					</figure>
+					<div class="overlay"></div>
+					<div class="text-wrap">
+						<h3>
+							<a href="#">Hạ Long</a>
+						</h3>
+						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+							<div class="meta">
+								<a href="#">
+									<span class="icon fa fa-calendar"></span> July 20, 2023
+									<span class="icon fa fa-comments"></span> 200
+								</a>
+							</div>
+							<div>
+								<a class="read_more" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="imgnoibat wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+					<figure>
+						<img class="img-fluid" src="images/dulichmocchau.jpg" alt="">
+					</figure>
+					<div class="overlay"></div>
+					<div class="text-wrap">
+						<h3>
+							<a href="#">Mộc Châu</a>
+						</h3>
+						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+							<div class="meta">
+								<a href="#">
+									<span class="icon fa fa-calendar"></span> April 26, 2023
+									<span class="icon fa fa-comments"></span> 345
+								</a>
+							</div>
+							<div>
+								<a class="read_more" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="imgnoibat wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
+					<figure>
+						<img class="img-fluid" src="images/colaubl.jpg" alt="">
+					</figure>
+					<div class="overlay"></div>
+					<div class="text-wrap">
+						<h3>
+							<a href="#">Bình Liêu</a>
+						</h3>
+						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+							<div class="meta">
+								<a href="#">
+									<span class="icon fa fa-calendar"></span> October 18, 2023
+									<span class="icon fa fa-comments"></span> 219
+								</a>
+							</div>
+							<div>
+								<a class="read_more" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="imgnoibat wow fadeIn" data-wow-duration="1s" data-wow-delay=".9s">
+					<figure>
+						<img class="img-fluid" src="images/dulichue.jpg" alt="">
+					</figure>
+					<div class="overlay"></div>
+					<div class="text-wrap">
+						<h3>
+							<a href="#">Du lịch Huế</a>
+						</h3>
+						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+							<div class="meta">
+								<a href="#">
+									<span class="icon fa fa-calendar"></span> March 14, 2023
+									<span class="icon fa fa-comments"></span> 400
+								</a>
+							</div>
+							<div>
+								<a class="read_more" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="imgnoibat wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
+					<figure>
+						<img class="img-fluid" src="images/dalat.jpg" alt="">
+					</figure>
+					<div class="overlay"></div>
+					<div class="text-wrap">
+						<h3>
+							<a href="#">Du lịch Đà Lạt</a>
+						</h3>
+						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+							<div class="meta">
+								<a href="#">
+									<span class="icon fa fa-calendar"></span> June 15, 2018
+									<span class="icon fa fa-comments"></span> 216
+								</a>
+							</div>
+							<div>
+								<a class="read_more" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="imgnoibat wow fadeIn" data-wow-duration="1s" data-wow-delay=".9s">
+					<figure>
+						<img class="img-fluid" src="images/sapachu.jpg" alt="">
+					</figure>
+					<div class="overlay"></div>
+					<div class="text-wrap">
+						<h3>
+							<a href="#">Du lịch Sapa</a>
+						</h3>
+						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+							<div class="meta">
+								<a href="#">
+									<span class="icon fa fa-calendar"></span> September 10, 2023
+									<span class="icon fa fa-comments"></span> 190
+								</a>
+							</div>
+							<div>
+								<a class="read_more" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="imgnoibat wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
+					<figure>
+						<img class="img-fluid" src="images/dulichdanang.jpg" alt="">
+					</figure>
+					<div class="overlay"></div>
+					<div class="text-wrap">
+						<h3>
+							<a href="#">Du lịch Đà Nẵng</a>
+						</h3>
+						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+							<div class="meta">
+								<a href="#">
+									<span class="icon fa fa-calendar"></span> March 01, 2023
+									<span class="icon fa fa-comments"></span> 275
+								</a>
+							</div>
+							<div>
+								<a class="read_more" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="imgnoibat wow fadeIn" data-wow-duration="1s" data-wow-delay=".9s">
+					<figure>
+						<img class="img-fluid" src="images/nhoquehagiang.jpg" alt="">
+					</figure>
+					<div class="overlay"></div>
+					<div class="text-wrap">
+						<h3>
+							<a href="#">Du lịch Hà Giang</a>
+						</h3>
+						<div class="blog-meta white d-flex justify-content-between align-items-center flex-wrap">
+							<div class="meta">
+								<a href="#">
+									<span class="icon fa fa-calendar"></span> March 24, 2023
+									<span class="icon fa fa-comments"></span> 305
+								</a>
+							</div>
+							<div>
+								<a class="read_more" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<style>
+		.g-grid {
+			display: grid;
+			grid-template-columns: calc(50% - 15px) calc(50% - 15px);
+			grid-template-rows: repeat(4, 80px);
+			grid-column-gap: 30px;
+			grid-row-gap: 0;
+		}
+	
+		.g-grid-col {
+			padding: 30px;
+			color: #fff;
+		}
+	
+		.penci-item-mag {
+			display: flex;
+			height: 100%;
+			overflow: hidden;
+			position: relative;
+			margin-bottom: 5px;
+		}
+	
+		.penci-item-mag img {
+			width: 100%;
+			height: auto;
+		}
+	
+		.penci-mag-featured-content {
+			display: flex;
+			flex-direction: column;
+			padding: 10px;
+			box-sizing: border-box;
+			flex-grow: 1;
+			margin-left: 15px;
+		}
+	
+		.cat {
+			margin-bottom: 5px;
+		}
+	
+		h3 {
+			margin: 0;
+		}
+	
+		@media (max-width: 768px) {
+			.g-grid {
+				grid-template-columns: 100%;
+				grid-template-rows: auto;
+			}
+	
+			.g-grid-col {
+				flex: 1;
+				width: 100%;
+				padding: 15px;
+				box-sizing: border-box;
+			}
+		}
+	</style>
+
+
+	
+	<!--                              DU LỊCH MIỀN BẮC                              -->
+	<div class="container" style="height: auto;">
+		<h1 style="text-align: center; color: white; background-color: #FF0000;"> DU LỊCH MIỀN BẮC</h1>
+		<h3 style=" font-size: medium; text-align: center; background-color: #FF0000;">Miền Bắc nổi bật hẳn với 4 mùa Xuân - Hạ - Thu - Đông rõ rệt, thu hút với những điểm đến du lịch đầy lý tưởng
+		</h3>
+		<hr>
+		<div class="row">
+			<div class="col-md-6">
+				<!-- cột bên trái -->
+				<div class="nm-starthere-item">
+					<a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer">
+						<img class="img-fluid" src="image-trangchu/hanoi.jpg" alt="Hà Nội" style="width: 600px; height: 520px;">
+					</a>
+					<h4><a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer" style="font-size: larger;">Hà Nội - điểm du lịch nhất định phải đến</a></h4>
+					<br>
+				</div>
+			</div>
+
+		<div class="col-md-6">
+			<!-- cột bên phải -->
+			<ul style="list-style: none; padding: 0;">
+				<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc; margin-top: -8px;">
+						<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+							<div class="cs-post-item" style="width: 100%; text-align: center;">
+								<div class="cs-post-thumb">
+									<a href="chitietbaivietloikhuyendl.html">
+										<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/mocchau-sonla.jpg" alt="Mộc Châu">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-8" style="font-size: 1.2em; color: black; padding: 10px 0;">
+							<div class="cs-post-item">
+								<div class="cs-post-details">
+									<div class="cs-post-title">
+										<h3 style="font-size: 1.2em;">Mộc Châu - Sơn La mùa hoa mận</h3>
+										<p style="font-size: 1em;">Là một trong những điểm du lịch nổi tiếng ở miền Bắc, Mộc Châu...
+											<a href="xemthemdulich1minh.html">Xem thêm</a>
+										</p>
+									</div>
+									<div class="cs-clearfix"></div>
+								</div>
+							</div>
+						</div>
+				</li>
+				<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc; margin-top:-20px;">
+					<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+						<div class="cs-post-item" style="width: 100%; text-align: center;">
+							<div class="cs-post-thumb">
+								<a href="chitietbaivietloikhuyendl.html">
+									<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/nhoque-hagiang.jpg" alt="Hà Giang">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8" style="font-size: 1.2em; color: black; padding: 10px 0;">
+						<div class="cs-post-item">
+							<div class="cs-post-details">
+								<div class="cs-post-title">
+									<h3 style="font-size: 1.2em;">Hà Giang- điểm đến không thể bỏ qua </h3>
+									<p style="font-size: 1em;">Phiêu lưu trên đất Hà Giang trong 4 ngày là không đủ với mình
+										Mong sau này có dịp quay lại đây thì sẽ khám phá kỹ hơn, đúng là đất nước mình còn lạ, cần chi đâu nước ngoài...
+										<a href="xemthemdulich1minh.html">Xem thêm</a>
+									</p>
+								</div>
+								<div class="cs-clearfix"></div>
+							</div>
+						</div>
+					</div>
+			</li>
+			<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc; margin-top: -20px;">
+				<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+					<div class="cs-post-item" style="width: 100%; text-align: center;">
+						<div class="cs-post-thumb">
+							<a href="chitietbaivietloikhuyendl.html">
+								<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/sapa-laocai.jpg" alt="Sapa- Lào Cai">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8" style="font-size: 1.2em; color: black; padding: 10px 0;">
+					<div class="cs-post-item">
+						<div class="cs-post-details">
+							<div class="cs-post-title">
+								<h3 style="font-size: 1.2em;">Sapa-Thành phố mờ sương</h3>
+								<p style="font-size: 1em;">Lần đầu tiên đến Sapa, đúng là thành phố mờ sương ngay lúc này sương mù giăng kín lối ạ. Nhưng may mắn là... 
+									<a href="xemthemdulich1minh.html">Xem thêm</a>
+								</p>
+							</div>
+							<div class="cs-clearfix"></div>
+						</div>
+					</div>
+				</div>
+		</li>
+		<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc;margin-top: -20px;">
+			<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+				<div class="cs-post-item" style="width: 100%; text-align: center;">
+					<div class="cs-post-thumb">
+						<a href="chitietbaivietloikhuyendl.html">
+							<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/binhlieu.jpg" alt="Bình Liêu- Quảng Ninh">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8" style="font-size: 1.3em; color: black; padding: 10px 0;">
+				<div class="cs-post-item">
+					<div class="cs-post-details">
+						<div class="cs-post-title">
+							<h3 style="font-size: 1.3em;">Ngắm bình minh trên mốc 1305 tại Bình Liêu Quảng Ninh</h3>
+							<p style="font-size: 1em;">Sống lưng khủng long - đường lên cột mốc 1305 tại Bình Liêu là...
+								<a href="xemthemdulich1minh.html">Xem thêm</a>
+							</p>
+						</div>
+						<div class="cs-clearfix"></div>
+					</div>
+				</div>
+			</div>
+	</li>
+					
+				</ul>
+		</div>
+	</div>
+</div>
+
+	<hr>
+	<br>
+	<!--                             DU LỊCH MIỀN TRUNG                            -->
+	<div class="container" style="height: auto;">
+		<h1 style="text-align: center; color:white; background-color: #FF0000;"> DU LỊCH MIỀN TRUNG</h1>
+		<h3 style=" font-size: medium; text-align: center; background-color: #FF0000;">Du lịch miền Trung Việt Nam thu hút du khách với những bãi biển tuyệt đẹp, những khu du lịch cực hot vào mùa Hè
+		</h3>
+		<hr>
+		<div class="row">
+			<div class="col-md-6">
+				<!-- cột bên trái -->
+				<div class="nm-starthere-item">
+					<a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer">
+						<img class="img-fluid" src="image-trangchu/thanhdiamyson-quangnam.jpg" alt="Thánh địa Mỹ Sơn- Quảng Nam" style="width: 600px; height: 520px;">
+					</a>
+					<h4><a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer" style="font-size: larger;">Thánh địa Mỹ Sơn-Quảng Nam</a></h4>
+					<br>
+					
+				</div>
+			</div>
+
+		<div class="col-md-6">
+			<!-- cột bên phải -->
+			<ul style="list-style: none; padding: 0;">
+				<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc; margin-top: -8px;">
+						<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+							<div class="cs-post-item" style="width: 100%; text-align: center;">
+								<div class="cs-post-thumb">
+									<a href="chitietbaivietloikhuyendl.html">
+										<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/daolyson-quangngai.jpg" alt="Quảng Ngãi">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-8" style="font-size: 1.2em; color: black; padding: 10px 0;">
+							<div class="cs-post-item">
+								<div class="cs-post-details">
+									<div class="cs-post-title">
+										<h3 style="font-size: 1.2em;">Đảo Lý Sơn- Quảng Ngãi</h3>
+										<p style="font-size: 1em;">Đảo Lý Sơn là một huyện đảo thuộc tỉnh Quảng Ngại nổi tiếng với nghề trồng tỏi. Bên cạnh đó đảo này còn được du khách tìm đến bởi vẻ đẹp thiên nhiên trù phú. Đến với Lý Sơn...
+											<a href="xemthemdulich1minh.html">Xem thêm</a>
+										</p>
+									</div>
+									<div class="cs-clearfix"></div>
+								</div>
+							</div>
+						</div>
+				</li>
+				<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc; margin-top:-20px;">
+					<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+						<div class="cs-post-item" style="width: 100%; text-align: center;">
+							<div class="cs-post-thumb">
+								<a href="chitietbaivietloikhuyendl.html">
+									<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/vinhvanphong-nhatrang.jpg" alt="Nha Trang">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8" style="font-size: 1.2em; color: black; padding: 10px 0;">
+						<div class="cs-post-item">
+							<div class="cs-post-details">
+								<div class="cs-post-title">
+									<h3 style="font-size: 1.2em;">Vịnh Vân Phong - Nha Trang</h3>
+									<p style="font-size: 1em;">Vịnh Vân Phong được người dân nơi đây ví như một nàng công chúa ngủ quên ở nơi này. Vì khi tới nơi đây  ...
+										<a href="xemthemdulich1minh.html">Xem thêm</a>
+									</p>
+								</div>
+								<div class="cs-clearfix"></div>
+							</div>
+						</div>
+					</div>
+			</li>
+			<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc; margin-top: -20px;">
+				<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+					<div class="cs-post-item" style="width: 100%; text-align: center;">
+						<div class="cs-post-thumb">
+							<a href="chitietbaivietloikhuyendl.html">
+								<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/banahill-danang.jpg" alt="Đà Nẵng">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8" style="font-size: 1.2em; color: black; padding: 10px 0;">
+					<div class="cs-post-item">
+						<div class="cs-post-details">
+							<div class="cs-post-title">
+								<h3 style="font-size: 1.2em;">Bà Nà Hills (Đà Nẵng)-địa điểm du lịch miền Trung hấp dẫn không thể bỏ qua
+									</h3>
+								<p style="font-size: 1em;">Bà Nà được mệnh danh là “chốn tiên cảnh bồng lai” hay “Châu Âu thu nhỏ giữa lòng thành phố” với những thẳng cảnh tự nhiên độc đáo,...
+									<a href="xemthemdulich1minh.html">Xem thêm</a>
+								</p>
+							</div>
+							<div class="cs-clearfix"></div>
+						</div>
+					</div>
+				</div>
+		</li>
+		<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc;margin-top: -20px;">
+			<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+				<div class="cs-post-item" style="width: 100%; text-align: center;">
+					<div class="cs-post-thumb">
+						<a href="chitietbaivietloikhuyendl.html">
+							<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/phongnhakebang-quangbinh.jpg" alt="Phong Nha - Kẻ Bàng">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8" style="font-size: 1.3em; color: black; padding: 10px 0;">
+				<div class="cs-post-item">
+					<div class="cs-post-details">
+						<div class="cs-post-title">
+							<h3 style="font-size: 1.3em;">Vườn Quốc gia Phong Nha Kẻ Bàng 
+								</h3>
+							<p style="font-size: 1em;">Quần thể này nằm ở xã Sơn Trạch, huyện Bố Trạch, tỉnh Quảng Bình, cách trung tâm thành phố Đồng Hới ...
+								<a href="xemthemdulich1minh.html">Xem thêm</a>
+							</p>
+						</div>
+						<div class="cs-clearfix"></div>
+					</div>
+				</div>
+			</div>
+	</li>
+				</ul>
+		</div>
+	</div>
+</div>
+<hr>
+<br>
+<!--                              DU LỊCH MIỀN NAM                      -->
+<div class="container" style="height: auto;">
+	<h1 style="text-align: center; color: white; background-color: #FF0000;"> DU LỊCH MIỀN NAM</h1>
+	<h3 style=" font-size: medium; text-align: center; background-color: #FF0000;">Trước hàng hà sa số những địa điểm du lịch miền Nam, bạn nên chọn điểm đến nào cho chuyến du lịch của mình?
+	</h3>
+	<hr>
+	<div class="row">
+		<div class="col-md-6">
+			<!-- cột bên trái -->
+			<div class="nm-starthere-item">
+				<a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer">
+					<img class="img-fluid" src="image-trangchu/thanhphohochiminh.jpg" alt="Hồ Chí Minh" style="width: 600px; height: 520px;">
+				</a>
+				<h4><a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer" style="font-size: larger;">Hồ Chí Minh- thành phố sầm uất nhất miền Nam</a></h4>
+				<br>
+				
+			</div>
+		</div>
+
+	<div class="col-md-6">
+		<!-- cột bên phải -->
+		<ul style="list-style: none; padding: 0;">
+			<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc; margin-top: -8px;">
+					<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+						<div class="cs-post-item" style="width: 100%; text-align: center;">
+							<div class="cs-post-thumb">
+								<a href="chitietbaivietloikhuyendl.html">
+									<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/bariavungtau.jpg" alt="Bà Rịa- Vũng Tàu">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8" style="font-size: 1.2em; color: black; padding: 10px 0;">
+						<div class="cs-post-item">
+							<div class="cs-post-details">
+								<div class="cs-post-title">
+									<h3 style="font-size: 1.2em;">Bà Rịa - Vũng Tàu nổi tiếng với những bãi biển đẹp</h3>
+									<p style="font-size: 1em;"> Bạn có thể đến đây tham quan cùng gia đình, bạn bè vào những dịp cuối tuần,...
+										<a href="xemthemdulich1minh.html">Xem thêm</a>
+									</p>
+								</div>
+								<div class="cs-clearfix"></div>
+							</div>
+						</div>
+					</div>
+			</li>
+			<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc; margin-top:-20px;">
+				<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+					<div class="cs-post-item" style="width: 100%; text-align: center;">
+						<div class="cs-post-thumb">
+							<a href="chitietbaivietloikhuyendl.html">
+								<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/dongthap.jpg" alt="Đồng Tháp">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8" style="font-size: 1.2em; color: black; padding: 10px 0;">
+					<div class="cs-post-item">
+						<div class="cs-post-details">
+							<div class="cs-post-title">
+								<h3 style="font-size: 1.2em;">“Tháp Mười đẹp nhất bông sen,
+									Việt Nam đẹp nhất có tên Bác Hồ”</h3>
+								<p style="font-size: 1em;">Qua câu ca dao trên ta có thể thấy, Đồng Tháp nổi tiếng với những cánh...
+									<a href="xemthemdulich1minh.html">Xem thêm</a>
+								</p>
+							</div>
+							<div class="cs-clearfix"></div>
+						</div>
+					</div>
+				</div>
+		</li>
+		<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc; margin-top: -20px;">
+			<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+				<div class="cs-post-item" style="width: 100%; text-align: center;">
+					<div class="cs-post-thumb">
+						<a href="chitietbaivietloikhuyendl.html">
+							<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/dulichangiang.jpg" alt="An Giang">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8" style="font-size: 1.2em; color: black; padding: 10px 0;">
+				<div class="cs-post-item">
+					<div class="cs-post-details">
+						<div class="cs-post-title">
+							<h3 style="font-size: 1.2em;">An Giang- điểm du lịch tâm linh </h3>
+							<p style="font-size: 1em;">An Giang không chỉ thu hút du khách,...
+								<a href="xemthemdulich1minh.html">Xem thêm</a>
+							</p>
+						</div>
+						<div class="cs-clearfix"></div>
+					</div>
+				</div>
+			</div>
+	</li>
+	<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc;margin-top: -20px;">
+		<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+			<div class="cs-post-item" style="width: 100%; text-align: center;">
+				<div class="cs-post-thumb">
+					<a href="chitietbaivietloikhuyendl.html">
+						<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/haugiang.jpg" alt="Hậu Giang">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-8" style="font-size: 1.3em; color: black; padding: 10px 0;">
+			<div class="cs-post-item">
+				<div class="cs-post-details">
+					<div class="cs-post-title">
+						<h3 style="font-size: 1.3em;">Hậu Giang với khung cảnh thiên nhiên bình dị </h3>
+						<p style="font-size: 1em;">Đến đây bạn sẽ được trải nghiệm những địa điểm bình yên, hấp dẫn như: Khu bảo tồn thiên nhiên...
+							<a href="xemthemdulich1minh.html">Xem thêm</a>
+						</p>
+					</div>
+					<div class="cs-clearfix"></div>
+				</div>
+			</div>
+		</div>
+</li>
+		
+			</ul>
+	</div>
+</div>
+</div>
+<!--                           ẨM THỰC                              -->
+<div class="container" style="height: auto;">
+	<h1 style="text-align: center; color: black; background-color: #FF0000;"> KHÁM PHÁ ẨM THỰC DU LỊCH VIỆT NAM</h1>
+	<h3 style=" font-size: medium; text-align: center; background-color: #FF0000;">Cùng chúng mình tìm hiểu về các món ăn đặc sắc nổi tiếng bạn nên thử khi đi khám phá du lịch Việt Nam
+	</h3>
+	<hr>
+	<div class="row">
+		<div class="col-md-6">
+			<!-- cột bên trái -->
+			<div class="nm-starthere-item">
+				<a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer">
+					<img class="img-fluid" src="image-trangchu/comVong.jpg" alt="Cốm làng Vòng" style="width: 600px; height: 520px;">
+				</a>
+				<h4><a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer" style="font-size: larger;">Thơm nồng hương cốm Hà Nội</a></h4>
+				<br>
+				
+			</div>
+		</div>
+
+	<div class="col-md-6">
+		<!-- cột bên phải -->
+		<ul style="list-style: none; padding: 0;">
+			<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc; margin-top: -8px;">
+					<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+						<div class="cs-post-item" style="width: 100%; text-align: center;">
+							<div class="cs-post-thumb">
+								<a href="chitietbaivietloikhuyendl.html">
+									<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/banhdauxanhhaiduong.jpg" alt="Bánh đậu xanh">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8" style="font-size: 1.2em; color: black; padding: 10px 0;">
+						<div class="cs-post-item">
+							<div class="cs-post-details">
+								<div class="cs-post-title">
+									<h3 style="font-size: 1.2em;">Bánh đậu xanh Hải Dương</h3>
+									<p style="font-size: 1em;">Bánh đậu xanh là một loại bánh ngọt làm từ bột đậu xanh quết nhuyễn với đường và dầu thực vật hay...
+										<a href="xemthemdulich1minh.html">Xem thêm</a>
+									</p>
+								</div>
+								<div class="cs-clearfix"></div>
+							</div>
+						</div>
+					</div>
+			</li>
+			<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc; margin-top:-20px;">
+				<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+					<div class="cs-post-item" style="width: 100%; text-align: center;">
+						<div class="cs-post-thumb">
+							<a href="chitietbaivietloikhuyendl.html">
+								<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/bunbohue.jpg" alt="Bún Bò Huế">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8" style="font-size: 1.2em; color: black; padding: 10px 0;">
+					<div class="cs-post-item">
+						<div class="cs-post-details">
+							<div class="cs-post-title">
+								<h3 style="font-size: 1.2em;">Bún Bò Huế </h3>
+								<p style="font-size: 1em;">Bún bò là một trong những đặc sản của xứ Huế, mặc dù món bún này phổ biến trên cả ba miền ở Việt Nam  ...
+									<a href="xemthemdulich1minh.html">Xem thêm</a>
+								</p>
+							</div>
+							<div class="cs-clearfix"></div>
+						</div>
+					</div>
+				</div>
+		</li>
+		<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc; margin-top: -20px;">
+			<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+				<div class="cs-post-item" style="width: 100%; text-align: center;">
+					<div class="cs-post-thumb">
+						<a href="chitietbaivietloikhuyendl.html">
+							<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/comtamsaigon.jpg" alt="cơm tấm Sài Gòn">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8" style="font-size: 1.2em; color: black; padding: 10px 0;">
+				<div class="cs-post-item">
+					<div class="cs-post-details">
+						<div class="cs-post-title">
+							<h3 style="font-size: 1.2em;">Cơm tấm Sài Gòn</h3>
+							<p style="font-size: 1em;">Cơm tấm, hay Cơm tấm Sài Gòn là một món ăn Việt Nam có nguyên liệu...
+								<a href="xemthemdulich1minh.html">Xem thêm</a>
+							</p>
+						</div>
+						<div class="cs-clearfix"></div>
+					</div>
+				</div>
+			</div>
+	</li>
+	<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc;margin-top: -20px;">
+		<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+			<div class="cs-post-item" style="width: 100%; text-align: center;">
+				<div class="cs-post-thumb">
+					<a href="chitietbaivietloikhuyendl.html">
+						<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/laucalinh.jpg" alt="Lẩu ">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-8" style="font-size: 1.3em; color: black; padding: 10px 0;">
+			<div class="cs-post-item">
+				<div class="cs-post-details">
+					<div class="cs-post-title">
+						<h3 style="font-size: 1.3em;">Lẩu cá linh bông điên điển</h3>
+						<p style="font-size: 1em;">Trong những món đặc sản miền Tây mùa nước nổi, không thể không kể đến món lẩu cá linh bông điên điển ngon nức tiếng....
+							<a href="xemthemdulich1minh.html">Xem thêm</a>
+						</p>
+					</div>
+					<div class="cs-clearfix"></div>
+				</div>
+			</div>
+		</div>
+</li>
+			</ul>
+	</div>
+</div>
+</div>
+<!--                                     LỜI KHUYÊN DU LỊCH                         -->
+<div class="container" >
+	<h1 style="text-align: center; color: white; background-color: red;"> KINH NGHIỆM, LỜI KHUYÊN DU LỊCH</h1>
+	<h3 style=" font-size: medium; text-align: center; background-color: red;">Hãy cùng nhau chia sẻ một số kinh nghiệm khi đi du lịch.
+	</h3>
+	<hr>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="nm-starthere-item">
+						<a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer">
+							<img class="img-fluid" src="image-trangchu/chondiemden.jpg" alt="Chọn điểm đến" style="width: 360px; height: 160px;">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-7" style="padding-left: 0;">
+					<div class="nm-starthere-item">
+						<h4><a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer">Cách nghiên cứu các điểm đến du lịch của bạn</a></h4>
+						<p> Việc chọn điểm đến sẽ ảnh hướng rất nhiều đến chuyến đi của bạ...
+							<a href="xemthemdulich1minh.html">Xem thêm</a></p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="nm-starthere-item">
+						<a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer">
+							<img class="img-fluid" src="image-trangchu/lapkehoach.jpg" alt="Lập kế hoạch" style="width: 360px; height: 160px;">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-7" style="padding-left: 0;">
+					<div class="nm-starthere-item">
+						<h4><a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer">Tại sao phải lạp kế hoạch khi đi du lich?</a></h4>
+						<p> Lên kế hoạch du lịch phụ thuộc vào bản chất của chuyến đi: ...
+							<a href="xemthemdulich1minh.html">Xem thêm</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="nm-starthere-item">
+						<a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer">
+							<img class="img-fluid" src="image-trangchu/chonbandonghanh.jpg" alt="Chọn bạn đồng hành" style="width: 360px; height: 160px;">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-7" style="padding-left: 0;">
+					<div class="nm-starthere-item">
+						<h4><a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer">Làm thế nào để chọn bạn đồng hành trong chuyến đi phug hợp với tính cách bản thân</a></h4>
+						<p> Trong suốt chuyến đi, những người bạn đồng hành giảm lo âu  ...
+							<a href="xemthemdulich1minh.html">Xem thêm</a></p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="nm-starthere-item">
+						<a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer">
+							<img class="img-fluid" src="image-trangchu/hanhtrangchuyendi.jpg" alt="Hành trang" style="width: 360px; height: 160px;">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-7" style="padding-left: 0;">
+					<div class="nm-starthere-item">
+						<h4><a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer">Bạn cần chuẩn bị gì cho một chuyến đi du lịch?</a></h4>
+						<p> Để một chuyến du lịch thành công tốt đẹp cần có sự chuẩn bị rất kỹ lưỡng từ những việc nhỏ  ...
+							<a href="xemthemdulich1minh.html">Xem thêm</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="nm-starthere-item">
+						<a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer">
+							<img class="img-fluid" src="image-trangchu/thamkhaomotsoloikhuyen.jpg" alt="Tham khảo lời khuyên" style="width: 360px; height: 160px;">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-7" style="padding-left: 0;">
+					<div class="nm-starthere-item">
+						<h4><a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer">Hãy tham khảo một số lời khuyên, kinh nghiệm cho chuyến đi của bạn</a></h4>
+						<p> Để một chuyến du lịch hoàn hảo, hãy tham khảo kinh nghiệm, lời khuyên của nhngwx người đi...
+							<a href="xemthemdulich1minh.html">Xem thêm</a></p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="nm-starthere-item">
+						<a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer">
+							<img class="img-fluid" src="image-trangchu/dulich1minhkhacbiet.jpg" alt="Dulich" style="width: 360px; height: 160px;">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-7" style="padding-left: 0;">
+					<div class="nm-starthere-item">
+						<h4><a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer">Tại sao du lịch một mình lại khác biệt</a></h4>
+						<p>Đôi khi chúng ta sẽ lựa chọn việc đi vi vu một mình...
+							<a href="xemthemdulich1minh.html">Xem thêm</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<!--               CÁC ĐỊA ĐIỂM DU LỊCH  HÀNG ĐẦU VIỆT NAM       -->
+	<div class="container" style="height: auto;">
+		<h1 style="text-align: center; color: white; background-color: #FF0000;">  CÁC ĐỊA ĐIỂM DU LỊCH  HÀNG ĐẦU VIỆT NAM </h1>
+		<h3 style=" font-size: medium; text-align: center; background-color: #FF0000;">Hãy cùng chúng mình khám phá các địa điểm du lịch đang thịnh hành hàng đầu tại đây nhé!
+		</h3>
+		<hr>
+		<div class="row">
+			<div class="col-md-6">
+				<!-- cột bên trái -->
+				<div class="nm-starthere-item">
+					<a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer">
+						<img class="img-fluid" src="image-trangchu/halonghangdau.jpg" alt="Hạ Long" style="width: 600px; height: 520px;">
+					</a>
+					<h4><a href="chitietbaivietloikhuyendl.html" target="_blank" rel="noopener noreferrer" style="font-size: larger;">CĐiểm du lịch nổi tiếng Hạ Long Quảng Ninh</a></h4>
+					<br>
+					
+				</div>
+			</div>
+
+		<div class="col-md-6">
+			<!-- cột bên phải -->
+			<ul style="list-style: none; padding: 0;">
+				<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc; margin-top: -8px;">
+						<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+							<div class="cs-post-item" style="width: 100%; text-align: center;">
+								<div class="cs-post-thumb">
+									<a href="chitietbaivietloikhuyendl.html">
+										<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/huehandau.jpg" alt="Địa điểm du lịch Huế">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-8" style="font-size: 1.2em; color: black; padding: 10px 0;">
+							<div class="cs-post-item">
+								<div class="cs-post-details">
+									<div class="cs-post-title">
+										<h3 style="font-size: 1.2em;">Địa điểm du lịch Huế</h3>
+										<p style="font-size: 1em;">Huế mang vẻ đẹp trầm mặc, mộng mơ cùng nhiều giá trị văn hóa, lịch sử  ...
+											<a href="xemthemdulich1minh.html">Xem thêm</a>
+										</p>
+									</div>
+									<div class="cs-clearfix"></div>
+								</div>
+							</div>
+						</div>
+				</li>
+				<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc; margin-top:-20px;">
+					<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+						<div class="cs-post-item" style="width: 100%; text-align: center;">
+							<div class="cs-post-thumb">
+								<a href="chitietbaivietloikhuyendl.html">
+									<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/phuquochangdau.jpg" alt="Điểm du lịch Phú Quốc">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8" style="font-size: 1.2em; color: black; padding: 10px 0;">
+						<div class="cs-post-item">
+							<div class="cs-post-details">
+								<div class="cs-post-title">
+									<h3 style="font-size: 1.2em;">Điểm du lịch Phú Quốc</h3>
+									<p style="font-size: 1em;">Không phải ngẫu nhiên mà hòn ngọc Phú Quốc được mệnh danh là thiên đường du lịch ...
+										<a href="xemthemdulich1minh.html">Xem thêm</a>
+									</p>
+								</div>
+								<div class="cs-clearfix"></div>
+							</div>
+						</div>
+					</div>
+			</li>
+			<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc; margin-top: -20px;">
+				<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+					<div class="cs-post-item" style="width: 100%; text-align: center;">
+						<div class="cs-post-thumb">
+							<a href="chitietbaivietloikhuyendl.html">
+								<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/hoian.jpg" alt="Hội An - Địa điểm du lịch hút khách bậc nhất Việt Nam">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8" style="font-size: 1.2em; color: black; padding: 10px 0;">
+					<div class="cs-post-item">
+						<div class="cs-post-details">
+							<div class="cs-post-title">
+								<h3 style="font-size: 1.2em;">Hội An - Địa điểm du lịch hút khách bậc nhất Việt Nam</h3>
+								<p style="font-size: 1em;">Hội An là một trong những điểm đến hàng đầu của miền Trung với nhiều thắng cảnh đẹp cùng nền ẩm thực độc đáo...
+									<a href="xemthemdulich1minh.html">Xem thêm</a>
+								</p>
+							</div>
+							<div class="cs-clearfix"></div>
+						</div>
+					</div>
+				</div>
+		</li>
+		<li class="row" style="margin-bottom: 40px; border-bottom: 1px solid #ccc;margin-top: -20px;">
+			<div class="col-md-4" style="display: flex; align-items: center; padding: 10px 0;">
+				<div class="cs-post-item" style="width: 100%; text-align: center;">
+					<div class="cs-post-thumb">
+						<a href="chitietbaivietloikhuyendl.html">
+							<img style="width: 150px; height: 90px; object-fit: cover;" src="image-trangchu/caobang.jpg" alt="Cao Bằng - vẻ đẹp núi non hùng vĩ">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8" style="font-size: 1.3em; color: black; padding: 10px 0;">
+				<div class="cs-post-item">
+					<div class="cs-post-details">
+						<div class="cs-post-title">
+							<h3 style="font-size: 1.3em;">Cao Bằng - vẻ đẹp núi non hùng vĩ</h3>
+							<p style="font-size: 1em;">Cao Bằng là một trong những địa điểm du lịch miền Bắc nổi tiếng. Đây là tỉnh miền núi ...
+								<a href="xemthemdulich1minh.html">Xem thêm</a>
+							</p>
+						</div>
+						<div class="cs-clearfix"></div>
+					</div>
+				</div>
+			</div>
+	             </li>
+					
+			</ul>
+		</div>
+	</div>
+	<br>
+	<h1 style="color: #FF0000; text-align: center;"> KHÁC</h1>
+	<BR>
+	<div class="cs-widget-area">
+		<div class="cs-container row">
+			<!-- Phổ biến nhất -->
+			<div class="col-lg-4">
+				<div class="widget widget_post_list">
+					<div class="widget-title"><h4 class="underline">Bài Viết Phổ Biến nhất</h4></div>
+					<ul class="list-unstyled">
+						<li class="media mb-3">
+							<a href="chitietbaivietloikhuyendl.html">
+								<img class="mr-3" style="width: 60px; height: 60px;" src="image-3cotcuoi/điaiemdulichnoitiengmbac.jpg" alt="Địa điểm du lịch nổi tiếng ở miền bắc">
+							</a>
+							<div class="media-body">
+								<h5 class="mt-0">Những địa điểm du lịch nổi tiếng nhất miền Bắc</a></h5>
+							</div>
+						</li>
+						<li class="media">
+							<a href="chitietbaivietloikhuyendl.html">
+								<img class="mr-3" style="width: 60px; height: 60px;" src="image-3cotcuoi/lotrinhdulichmbac.jpg" alt="Lộ trình du lịch 1 mình tại miền Bắc">
+							</a>
+							<div class="media-body">
+								<h5 class="mt-0">Lộ trình du lịch 1 mình tại miền Bắc</a></h5>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+	
+			<!-- Thảo luận nhiều nhất -->
+			<div class="col-lg-4">
+				<div class="widget widget_post_list">
+					<div class="widget-title"><h4 class="underline">Thảo Luận Nhiều Nhất</h4></div>
+					<!-- Nội dung danh sách thảo luận nhiều nhất -->
+					<div class="row">
+						<div class="col-md-12">
+							<div class="cs-post-item d-flex align-items-center mb-3">
+								<div class="cs-post-thumb mr-3">
+									<a href="chitietbaivietloikhuyendl.html">
+										<img style="width: 60px; height: 60px;" src="image-3cotcuoi/trainghiemdulich1minh.jpg" alt="Nơi Tốt Nhất Để trải nghiệm chuyến đi du lịch một mình đầy thú vị">
+									</a>
+								</div>
+								<div class="cs-post-details">
+									<h5 class="mt-0">Nơi Tốt Nhất Để trải nghiệm chuyến đi du lịch một mình đầy thú vị</a></h5>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="cs-post-item d-flex align-items-center">
+								<div class="cs-post-thumb mr-3">
+									<a href="chitietbaivietloikhuyendl.html">
+										<img style="width: 60px; height: 60px;" src="image-3cotcuoi/an-toi-o-hue.jpg" alt="10 Địa Điểm Ăn Tối Hàng Đầu Ở Huế">
+									</a>
+								</div>
+								<div class="cs-post-details">
+									<h5 class="mt-0">10 Địa Điểm Ăn Tối Hàng Đầu Ở Huế</a></h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+	
+			<!-- Xem nhiều nhất -->
+			<div class="col-lg-4">
+				<div class="widget widget_post_list">
+					<div class="widget-title"><h4 class="underline">Xem Nhiều Nhất</h4></div>
+					<!-- Nội dung danh sách xem nhiều nhất -->
+					<div class="row">
+						<div class="col-md-12">
+							<div class="cs-post-item d-flex align-items-center mb-3">
+								<div class="cs-post-thumb mr-3">
+									<a href="chitietbaivietloikhuyendl.html">
+										<img style="width: 60px; height: 60px;" src="image-3cotcuoi/dulichhalong1minh.jpg" alt="Chuyến đi du lịch Hạ Long một mình thú vị">
+									</a>
+								</div>
+								<div class="cs-post-details">
+									<h5 class="mt-0">Chuyến đi du lịch Hạ Long một mình thú vị</a></h5>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="cs-post-item d-flex align-items-center">
+								<div class="cs-post-thumb mr-3">
+									<a href="chitietbaivietloikhuyendl.html">
+										<img style="width: 60px; height: 60px;" src="image-3cotcuoi/20diadiemphaidi.jpg" alt="Top 20 địa điểm nhất định phải đi trước 25 tuổi">
+									</a>
+								</div>
+								<div class="cs-post-details">
+									<h5 class="mt-0">Top 20 địa điểm nhất định phải đi trước 25 tuổi </a></h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+	
+</div>
+
+	
+
+	<!--================ start footer Area  =================-->
+	<hr class="custom-hr">
+	<footer class="footer-area mt-3">
+		<div class="container">
+			<div class="single-footer-widget footer_middle col-md-12">
+				<p class="text-center col-12 mt-3">
+				Thông tin nhóm:<br>
+				<hr>
+				Bàn Anh Dũng <br> Lục Thị Mộc <br> Khiếu Xuân Bách<br>
+				<hr>
+				Khoa học máy tính K7C
+				</p>
+				<hr>
+				<a href="/index.html" class="fa fa-facebook mx-2"></a> 
+				<a href="/index.html" class="fa fa-github text-black-50 mx-2"></a> 
+				<a href="/index.html" class="fa fa-youtube text-danger mx-2"></a>
+			</div>
+			
+		</div>
+	</footer>
+	<!--================ End footer Area  =================-->
+
+	<!-- ####################### Start Scroll to Top Area ####################### -->
+	<div id="back-top">
+		<a title="Go to Top" href="#">
+			<i class="fa fa-angle-up"></i>
+		</a>
+	</div>
+	<!-- ####################### End Scroll to Top Area ####################### -->
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="vendors/lightbox/simpleLightbox.min.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="vendors/jquery-ui/jquery-ui.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="js/theme.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

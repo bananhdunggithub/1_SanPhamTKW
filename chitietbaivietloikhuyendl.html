@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>we Are One Travel Blog</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<link rel="stylesheet" href="vendors/animate-css/animate.css">
+	<link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- khai báo thư viện của javascript-->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<style>
+						.miennam-menu {
+					position: relative;
+				}
+
+				.miennam-menu .dropdown-menu {
+					position: absolute;
+					top: 0;
+					left: 100%; /* Để menu hiển thị bên phải chữ MIỀN BẮC */
+					margin-left: 10px; /* Khoảng cách giữa chữ MIỀN BẮC và menu dropdown */
+					display: none;
+				}
+
+				.miennam-menu:hover .dropdown-menu {
+					display: block;
+				}
+				.home_banner_area {
+        width: 100%;
+        height: 100vh; /* Chiều cao full màn hình */
+        overflow: hidden;
+        position: relative;
+    }
+
+    .owl-carousel {
+        width: 100%;
+        height: 100%;
+    }
+	.owl-carousel img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Thu nhỏ ảnh để vừa với kích thước phần tử chứa */
+        object-position: center; /* Căn giữa ảnh */
+    }
+	.imgnoibat wow fadeIn{ 
+         width: 100;
+		 height: 100;
+	}
+	.read_more {
+    color: #FF0000; /* Đổi màu chữ "Read More" thành màu đỏ (#FF0000) */
+    }
+
+     .blog-meta a {
+    color: #0000FF; /* Đổi màu ngày tháng và số lượng bình luận thành màu xanh (#0000FF) */
+     }
+	 .cat-left img {
+			width: 100%; /* Đặt chiều rộng hình ảnh theo kích thước của phần tử chứa */
+			height: auto; /* Đảm bảo tỷ lệ khung hình không bị thay đổi */
+			object-fit: cover; /* Hiển thị toàn bộ hình ảnh bên trong kích thước đã đặt */
+	 }
+	 .cat-right{
+		width: 100%; /* Đặt chiều rộng hình ảnh theo kích thước của phần tử chứa */
+			height: auto; /* Đảm bảo tỷ lệ khung hình không bị thay đổi */
+			object-fit: cover; 
+	 }
+     h2,h1{
+		text-align: center;
+		color: crimson;
+	 }
+	 .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px; /* Điều chỉnh chiều cao tùy ý */
+	  margin-top: auto;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+	  margin-top: 150px;
+    }
+	.text-center p {
+		margin-top: 150px;
+		text-align: center;
+		font-size: larger;
+	}
+	
+	
+	
+	</style>
+</head>
+
+<body>
+
+	<!--================Header Menu Area =================-->
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html">
+						<img src="images/logo1.png" alt="" width="80" height="95">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav justify-content-center mx-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">TRANG CHỦ</a>
+							</li>
+							    <li class="nav-item submenu dropdown active">
+										<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+										 aria-expanded="false">ĐIỂM ĐẾN <i class="fa fa-caret-down"></i></a>
+								    <ul class="dropdown-menu">
+											<li class="nav-item">
+												<a class="nav-link" href="index.html">MIỀN BẮC</a>
+											
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="index.html">MIỀN TRUNG</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="index.html">MIỀN NAM</a>
+											</li>
+									</ul>
+								</li>
+							</li>
+							<li class="nav-item submenu dropdown active">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								 aria-expanded="false">ẨM THỰC <i class="fa fa-caret-down"></i></a>
+							<ul class="dropdown-menu">
+									<li class="nav-item">
+										<a class="nav-link" href="index.html">ẨM THỰC HÀ NỘI</a>
+									
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="index.html">ẨM THỰC QUẢNG NINH</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="index.html">ẨM THỰC HUẾ</a>
+									</li>
+									<!-- các mục khác-->
+							</ul>
+						</li>
+					</li>
+							<li class="nav-item">
+								<a class="nav-link" href="blog.html">BLOG</a>
+							</li>
+							<li class="nav-item submenu dropdown active">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								 aria-expanded="false">LỜI KHUYÊN KHI ĐI DU LỊCH <i class="fa fa-caret-down"></i></a>
+								<ul class="dropdown-menu">
+									<li class="nav-item">
+										<a class="nav-link" href="nhomdulich.html">Du lịch hội nhóm</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="dulichmotminh.html">Du lịch một mình</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="lienhe.html">LIÊN HỆ</a>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav ml-auto search">
+								<li class="nav-item d-flex align-items-center mr-10">
+									<div class="menu-form">
+										<form>
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Search here">
+											</div>
+										</form>
+									</div>
+									<button type="submit" class="search-icon">
+										<i class="lnr lnr-magnifier"></i>
+									</button>
+								</li>
+							</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--================ Header Menu Area =================-->
+    <div class="container">
+		<h1>Những lưu ý khi đi du lịch Đà Lạt 1 mình cần phải biết</h1><br>
+        <p style="text-align: right; font-size: larger; color: black;"><b>27/11/2023</b></p>    
+		<hr>
+		<div class="row">
+			<div class="col-lg-9">
+				<div class="article-detail__content__top__author">
+					<!-- Phần đánh giá và nút đánh giá di chuyển vào đây -->
+					<div class="starrating" itemscope="" itemtype="https://schema.org/CreativeWorkSeries">
+						<meta itemprop="name" content="Những lưu ý khi đi du lịch Đà Lạt 1 mình cần phải biết">
+						<meta itemprop="description" content="Đi du lịch Đà Lạt một mình có thể là một trải nghiệm thú vị, bởi vì thành phố này có nhiều địa điểm tham quan và hoạt động để bạn khám phá. ">
+						<div class="rating text-right">
+							<input type="radio" id="star5" onclick="vote(5, 'Article' , 1068)" name="rating" value="5">
+							<label for="star5" title="5 star">☆</label>
+							<input type="radio" id="star4" onclick="vote(4, 'Article' , 1068)" name="rating" value="4">
+							<label for="star4" title="4 star">☆</label>
+							<input type="radio" id="star3" onclick="vote(3, 'Article' , 1068)" name="rating" value="3">
+							<label for="star3" title="3 star">☆</label>
+							<input type="radio" id="star2" onclick="vote(2, 'Article' , 1068)" name="rating" value="2">
+							<label for="star2" title="2 star">☆</label>
+							<input type="radio" id="star1" onclick="vote(1, 'Article' , 1068)" name="rating" value="1">
+							<label for="star1" title="1 star">☆</label>
+						</div>
+						<span class="description">0/5 (0 Reviews)</span>
+					</div>
+				</div>
+				<article class="article-detail__content__bottom">
+					<!-- Nội dung của bạn ở đây -->
+					<p>
+						<div class="row">
+							<div class="col-lg-1"></div>
+							<div class="col-lg-10">
+								<img class="lazy img-fluid" src="images/dulicdalat.jpg" alt="Đà Lạt" style="width: 100%;">
+							</div>
+							<div class="col-lg-3"></div>
+						</div>
+                        Đà Lạt là một điểm đến du lịch tuyệt vời cho những ai muốn trốn khỏi sự ồn ào của thành phố và tìm kiếm sự yên bình giữa thiên nhiên. Bạn sẽ có thể tự do lựa chọn các địa điểm mình muốn đến và thực hiện các hoạt động mình thích mà không cần phải theo ý kiến của người khác. Tuy nhiên, đi du lịch Đà Lạt 1 mình cũng đòi hỏi bạn phải cẩn trọng và chú ý đến những điều sau đây để đảm bảo an toàn và có một chuyến đi thật tuyệt vời. Hãy cùng tìm hiểu những lưu ý quan trọng khi đi du lịch Đà Lạt một mình.
+					</p>
+                    <h2 id="An_toàn_là_trên_hết">An toàn là trên hết</h2>
+                    <p>Việc đảm bảo an toàn cho chính mình là rất quan trọng khi đi du lịch một mình. Việc đặt phòng khách sạn hoặc homestay từ trước sẽ giúp bạn tránh được tình trạng phòng hết chỗ hoặc phải tìm kiếm chỗ ở trong tình trạng mệt mỏi sau chuyến đi.</p>
+                    <p>Ngoài ra, bạn cũng nên tránh đi lang thang 1 mình ở những nơi vắng vẻ, đặc biệt là vào ban đêm. Hãy chọn các địa điểm du lịch nổi tiếng và đông đúc để đảm bảo an toàn cho chính mình. Nếu có bất kỳ sự cố gì xảy ra, hãy báo cho khách sạn hoặc cơ quan chức năng địa phương để được hỗ trợ kịp thời.</p>
+                    <p>
+                        <div class="row">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-8">
+								<img class="lazy img-fluid" src="image-loikhuyendulich/antoanlatrenhet.jpg" alt="An toàn là trên hết" style="width: 100%;">
+							</div>
+							<div class="col-lg-3"></div>
+						</div>
+					</p>
+                        <h2 id="Không_nên_cả_tin">Không nên cả tin</h2>
+                        <p>Một số du khách có thể muốn tìm kiếm người bạn đồng hành để chia sẻ trải nghiệm du lịch. Tuy nhiên, bạn cần phải cẩn trọng khi quyết định đi chơi cùng với người lạ. Có thể bạn sẽ gặp được những người tốt và có trải nghiệm du lịch thú vị, nhưng cũng có thể gặp phải những người không tốt và đe dọa đến sự an toàn của bạn.</p>
+                        <p>Do đó, bạn cần phải cẩn thận và tỉnh táo trong việc lựa chọn người bạn đồng hành. Nếu có thể, hãy tìm kiếm những người có sở thích, tính cách và lối sống tương đồng với bạn. Bạn cũng nên chọn những địa điểm du lịch đông đúc và an toàn để đi chơi cùng với người lạ.</p>
+                        <p>Nếu không chắc chắn về người bạn đồng hành, hãy từ chối một cách lịch sự và tìm cách giữ an toàn cho chính mình. Nếu có bất kỳ tình huống khẩn cấp nào xảy ra, hãy liên hệ với cơ quan chức năng địa phương hoặc nhân viên của khách sạn để được giúp đỡ.</p>
+                        <p>&nbsp;</p>
+                        <h2 id="Không_biết_điều_gì_có_thể_hỏi_người_dân_địa_phương">Không biết điều gì có thể hỏi người dân địa phương</h2>
+                        <p>
+							<div class="row">
+								<div class="col-lg-2"></div>
+								<div class="col-lg-8">
+									<img class="lazy img-fluid" src="image-loikhuyendulich/hỏiduong.jpg" alt="Khongbietthihoi" style="width: 100%;">
+								</div>
+								<div class="col-lg-3"></div>
+							</div>Hỏi đường và tìm kiếm thông tin từ người dân địa phương là một trong những cách tốt nhất để giải quyết các vấn đề liên quan đến du lịch khi bạn đi một mình tại Đà Lạt. Người dân địa phương thường biết rất nhiều về thành phố và có thể cung cấp cho bạn những lời khuyên hữu ích về cách di chuyển, những địa điểm tham quan, ẩm thực địa phương, và các hoạt động giải trí khác.</p>
+                        <p>Để tìm kiếm thông tin, bạn có thể hỏi nhân viên của khách sạn hoặc các cửa hàng địa phương. Nếu có thể, bạn cũng có thể tham gia các tour du lịch hoặc tham gia các hoạt động văn hóa địa phương để có cơ hội giao lưu và trò chuyện với người dân địa phương. Ngoài ra, bạn cũng có thể sử dụng các ứng dụng điện thoại thông minh để tìm kiếm thông tin và chỉ dẫn tại Đà Lạt.</p>
+                        <p>Tuy nhiên, bạn cũng cần phải cẩn thận và lưu ý khi hỏi đường hoặc tham gia các hoạt động với người địa phương. Hãy luôn giữ an toàn và tránh xa các hoạt động có nguy cơ.</p>
+                        <h2 id="Đừng_để_lộ_quá_nhiều_thông_tin_cá_nhân">Đừng để lộ quá nhiều thông tin cá nhân</h2>
+                        <p>
+							<div class="row">
+								<div class="col-lg-2"></div>
+								<div class="col-lg-8">
+									<img class="lazy img-fluid" src="image-loikhuyendulich/dunglothongtincanhan.jpg" alt="Đừng lộ thông tin cá nhân" style="width: 100%;">
+								</div>
+								<div class="col-lg-3"></div>
+							</div>
+							Khi làm quen với những người bạn mới trong chuyến đi đến Đà Lạt, bạn cần hòa đồng và thân thiện, tuy nhiên, bạn cũng cần lưu ý và bảo vệ thông tin cá nhân của mình. Bạn không nên chia sẻ thông tin nhạy cảm như số điện thoại, địa chỉ, tài khoản ngân hàng, hay bất kỳ thông tin cá nhân nào khác mà có thể bị lợi dụng để gây hại đến bạn sau này.</p>
+                        <h2 id="Đảm_bảo_tài_chính_cho_chuyến_đi">Đảm bảo tài chính cho chuyến đi</h2>
+                        <p>
+							<div class="row">
+								<div class="col-lg-2"></div>
+								<div class="col-lg-8">
+									<img class="lazy img-fluid" src="image-loikhuyendulich/taichinh.jpg" alt="An toàn là trên hết" style="width: 100%;">
+								</div>
+								<div class="col-lg-3"></div>
+							</div>Khi đi du lịch Đà Lạt một mình, bạn cần lên kế hoạch chi tiêu và chuẩn bị kĩ trước khi đi để đảm bảo rằng bạn có đủ tiền chi tiêu cho các hoạt động và nhu cầu của mình tại Đà Lạt. Bạn cũng cần cẩn trọng khi chi tiêu, hạn chế mua những đồ vật không cần thiết và chỉ chi tiêu cho những trải nghiệm thực sự đáng giá. Bạn có thể tìm hiểu trước về mức giá các dịch vụ, sản phẩm tại Đà Lạt để có thể đưa ra quyết định hợp lý về chi tiêu.</p>
+                        
+                </article>
+			</div>
+			<div class="col-lg-3">
+				<!-- Latest Posts -->
+				<div class="cs-main-sidebar cs-sticky-sidebar">
+					<div class="widget widget_post_list">
+						<div class="widget-title">
+							<h4>Bài viết mới nhất</h4>
+						</div>
+						<ul>
+							<!-- Latest Posts Items -->
+							<!-- Place your code for Latest Posts here -->
+							<li class="row">
+								<div class="col-md-5">
+									<div class="cs-post-item">
+										<div class="cs-post-thumb">
+											<a href="chitietbaivietloikhuyendl.html">
+												<img style="width: 80px; height: 60px;" src="baivietnoibatcholoikhuyendl/lydodidulichmotminh.jpg" alt="Lý do gì để lựa chọn đi du lịch 1 mình?">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-7" style="font-size: 0.8em; color:black;">
+									<div class="cs-post-item">
+										<div class="cs-post-details">
+											<div class="cs-post-title">
+												<h3 style="font-size: 1em;">Lý do gì để lựa chọn đi du lịch 1 mình?</a></h3>
+											</div>
+											<div class="cs-clearfix"></div>
+										</div>
+									</div>
+								</div>
+								
+							</li>
+							<li class="row">
+								<div class="col-md-5">
+									<div class="cs-post-item">
+										<div class="cs-post-thumb">
+											<a href="chitietbaivietloikhuyendl.html">
+												<img style="width: 80px; height: 60px;" src="baivietnoibatcholoikhuyendl/hanhtrangdulich.jpg" alt="Hành trang cần thiết cho chuyến đi của bạn hoàn hảo hơn">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-7" style="font-size: 0.8em; color: black;">
+									<div class="cs-post-item">
+										<div class="cs-post-details">
+											<div class="cs-post-title">
+												<h3 style="font-size: 1em;">Hành trang cần thiết cho chuyến đi của bạn hoàn hảo hơn</a></h3>
+											</div>
+											<div class="cs-clearfix"></div>
+										</div>
+									</div>
+								</div>
+								
+							</li>
+							<li class="row">
+								<div class="col-md-5">
+									<div class="cs-post-item">
+										<div class="cs-post-thumb">
+											<a href="chitietbaivietloikhuyendl.html">
+												<img style="width: 80px; height: 60px;" src="baivietnoibatcholoikhuyendl/phuongtiendichyen.jpg" alt="Phương tiện di chuyển phù hợp cho các bạn đi du lịch 1 mình">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-7" style="font-size: 0.8em; color: black;">
+									<div class="cs-post-item">
+										<div class="cs-post-details">
+											<div class="cs-post-title">
+												<h3 style="font-size: 1em;">Phương tiện di chuyển phù hợp cho các bạn đi du lịch 1 mình</a></h3>
+											</div>
+											<div class="cs-clearfix"></div>
+										</div>
+									</div>
+								</div>
+								
+							</li>
+							<li class="row">
+								<div class="col-md-5">
+									<div class="cs-post-item">
+										<div class="cs-post-thumb">
+											<a href="chitietbaivietloikhuyendl.html">
+											<img style="width: 80px; height:60px"src="baivietnoibatcholoikhuyendl/kingnghiemdulich.jpg" alt="Một số kinh nghiệm khi đi du lịch một mình">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-7" style="font-size: 0.8em; color: black;">
+									<div class="cs-post-item">
+										<div class="cs-post-details">
+											<div class="cs-post-title">
+												<h3 style="font-size: 1em;">Một số kinh nghiệm khi đi du lịch một mình</a></h3>
+											</div>
+											<div class="cs-clearfix"></div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="row">
+								<div class="col-md-5">
+									<div class="cs-post-item">
+										<div class="cs-post-thumb">
+											<a href="chitietbaivietloikhuyendl.html">
+												<img style="width: 80px; height: 60px;" src="baivietnoibatcholoikhuyendl/luuykhididulic1minh.jpg" alt="Những lưu ý khi đi du lịch đơn độc">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-7" style="font-size: 0.8em; color: black;">
+									<div class="cs-post-item">
+										<div class="cs-post-details">
+											<div class="cs-post-title">
+												<h3 style="font-size: 1em;">Những lưu ý khi đi du lịch "đơn độc"</a></h3>
+											</div>
+											<div class="cs-clearfix"></div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="row">
+								<div class="col-md-5" >
+									<div class="cs-post-item">
+										<div class="cs-post-thumb">
+											<a href="chitietbaivietloikhuyendl.html">
+												<img style="width: 80px; height: 60px;" src="baivietnoibatcholoikhuyendl/motsodiemdulic1minh.jpeg" alt="Một số địa điểm phù hợp cho các bạn thích đi du lịch một mình">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-7" style="font-size: 0.8em; color: black;">
+									<div class="cs-post-item">
+										<div class="cs-post-details">
+											<div class="cs-post-title">
+												<h3 style="font-size: 1em;">Một số địa điểm phù hợp cho các bạn thích đi du lịch một mình</a></h3>
+											</div>
+											<div class="cs-clearfix"></div>
+										</div>
+									</div>
+								</div>
+							</li>
+							
+						</ul>
+						<style>
+							.cs-post-item {
+								
+							  margin-bottom: 20px; /* Khoảng cách giữa các hàng */
+							  padding: 10px; /* Padding để tạo khoảng cách bên trong mỗi hàng */
+							}
+							.cs-post-title {
+								color: black;
+							}
+							.widget-title h4.underline {
+									text-decoration: underline;
+									margin-bottom: 20px; /* Thay đổi giá trị của margin-bottom tùy thuộc vào khoảng cách bạn muốn */
+								}
+						  </style>
+					</div>
+				</div>
+			</div>
+
+		<!--                 3 mục ở gần cuối                    -->
+<div class="cs-widget-area">
+    <div class="cs-container row">
+        <!-- Phổ biến nhất -->
+		<div class="col-lg-4">
+			<div class="widget widget_post_list">
+				<div class="widget-title"><h4 class="underline">Bài Viết Phổ Biến nhất</h4></div>
+				<ul class="list-unstyled">
+					<li class="media mb-3">
+						<a href="chitietbaivietloikhuyendl.html">
+							<img class="mr-3" style="width: 60px; height: 60px;" src="image-3cotcuoi/điaiemdulichnoitiengmbac.jpg" alt="Địa điểm du lịch nổi tiếng ở miền bắc">
+						</a>
+						<div class="media-body">
+							<h5 class="mt-0">Những địa điểm du lịch nổi tiếng nhất miền Bắc</a></h5>
+						</div>
+					</li>
+					<li class="media">
+						<a href="chitietbaivietloikhuyendl.html">
+							<img class="mr-3" style="width: 60px; height: 60px;" src="image-3cotcuoi/lotrinhdulichmbac.jpg" alt="Lộ trình du lịch 1 mình tại miền Bắc">
+						</a>
+						<div class="media-body">
+							<h5 class="mt-0">Lộ trình du lịch 1 mình tại miền Bắc</a></h5>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+
+        <!-- Thảo luận nhiều nhất -->
+        <div class="col-lg-4">
+			<div class="widget widget_post_list">
+				<div class="widget-title"><h4 class="underline">Thảo Luận Nhiều Nhất</h4></div>
+				<!-- Nội dung danh sách thảo luận nhiều nhất -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="cs-post-item d-flex align-items-center mb-3">
+							<div class="cs-post-thumb mr-3">
+								<a href="chitietbaivietloikhuyendl.html">
+									<img style="width: 60px; height: 60px;" src="image-3cotcuoi/trainghiemdulich1minh.jpg" alt="Nơi Tốt Nhất Để trải nghiệm chuyến đi du lịch một mình đầy thú vị">
+								</a>
+							</div>
+							<div class="cs-post-details">
+								<h5 class="mt-0">Nơi Tốt Nhất Để trải nghiệm chuyến đi du lịch một mình đầy thú vị</a></h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="cs-post-item d-flex align-items-center">
+							<div class="cs-post-thumb mr-3">
+								<a href="chitietbaivietloikhuyendl.html">
+									<img style="width: 60px; height: 60px;" src="image-3cotcuoi/an-toi-o-hue.jpg" alt="10 Địa Điểm Ăn Tối Hàng Đầu Ở Huế">
+								</a>
+							</div>
+							<div class="cs-post-details">
+								<h5 class="mt-0">10 Địa Điểm Ăn Tối Hàng Đầu Ở Huế</a></h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+        <!-- Xem nhiều nhất -->
+        <div class="col-lg-4">
+			<div class="widget widget_post_list">
+				<div class="widget-title"><h4 class="underline">Xem Nhiều Nhất</h4></div>
+				<!-- Nội dung danh sách xem nhiều nhất -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="cs-post-item d-flex align-items-center mb-3">
+							<div class="cs-post-thumb mr-3">
+								<a href="chitietbaivietloikhuyendl.html">
+									<img style="width: 60px; height: 60px;" src="image-3cotcuoi/dulichhalong1minh.jpg" alt="Chuyến đi du lịch Hạ Long một mình thú vị">
+								</a>
+							</div>
+							<div class="cs-post-details">
+								<h5 class="mt-0">Chuyến đi du lịch Hạ Long một mình thú vị</a></h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="cs-post-item d-flex align-items-center">
+							<div class="cs-post-thumb mr-3">
+								<a href="chitietbaivietloikhuyendl.html">
+									<img style="width: 60px; height: 60px;" src="image-3cotcuoi/20diadiemphaidi.jpg" alt="Top 20 địa điểm nhất định phải đi trước 25 tuổi">
+								</a>
+							</div>
+							<div class="cs-post-details">
+								<h5 class="mt-0">Top 20 địa điểm nhất định phải đi trước 25 tuổi </a></h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+    </div>
+</div>
+		</div>
+
+    <!--================ start footer Area  =================-->
+	<footer class="footer-area section-gap">
+		<div class="container">
+			<div class="single-footer-widget footer_middle">
+				<img src="images/footer_logo.png" alt="" width="200" height="170">
+				<p class="mt-50">Stay updated with our latest trends</p>
+				<p class=" thongtin">Họ và tên: </p>Bàn Anh Dũng <br> Lục Thị Mộc <br> Khiếu Xuân Bách
+				<p class="thongtin">Lớp: </p>Khoa học máy tính K7C
+			</div>
+			</div>
+			<div class="footer-bottom footer_copy">
+				<div class="footer-social">
+					<a href="#">
+						<i class="fa fa-facebook"></i>
+					</a>
+					<a href="#">
+						<i class="fa fa-twitter"></i>
+					</a>
+				</div>
+				<p class="col-lg-12 footer-text">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				Copyright &copy;
+				<script>document.write(new Date().getFullYear());
+				</script> WE ARE ONE | BẢN QUYỀN THUỘC VỀ NHÓM 1
+				<i class="fa fa-heart-o" aria-hidden="true"></i>
+			
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		</div>
+	</footer>
+	<!--================ End footer Area  =================-->
+
+	<!-- ####################### Start Scroll to Top Area ####################### -->
+	<div id="back-top">
+		<a title="Go to Top" href="#">
+			<i class="fa fa-angle-up"></i>
+		</a>
+	</div>
+	<!-- ####################### End Scroll to Top Area ####################### -->
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="vendors/lightbox/simpleLightbox.min.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="vendors/jquery-ui/jquery-ui.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="js/theme.js"></script>
+</body>
+
+</html>
