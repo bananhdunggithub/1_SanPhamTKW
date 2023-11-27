@@ -15,7 +15,7 @@
         border: 0px;
         border-radius: 0px;
         @media (max-width: 991px) {
-            background: #79CDCD;
+            background: #fff;
         }
         .nav {
             .nav-item {
@@ -28,7 +28,12 @@
                     text-transform: capitalize;
                     color: $dip;
                     padding: 0px;
-                    display: inline-block;
+                    display: inline-block; // @media (max-width: 1199px) {
+                    //     line-height: 40px;
+                    //     margin-right: 0px;
+                    //     display: block;
+                    //     border-radius: 0px;
+                    // }
                     &:after {
                         display: none;
                     }
@@ -47,7 +52,7 @@
                         border-radius: 0px;
                         box-shadow: none;
                         margin: 0px;
-                        background: #79CDCD;
+                        background: #fff;
                         box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
                         @media (max-width: 1300px) {
                             left: auto;
@@ -105,7 +110,7 @@
                             &:hover {
                                 .nav-link {
                                     background: $baseColor;
-                                    color: #79CDCD;
+                                    color: #fff;
                                 }
                             }
                         }
