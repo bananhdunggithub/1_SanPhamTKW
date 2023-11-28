@@ -105,13 +105,13 @@ margin-top: auto;
 <body>
 
 	<!--================Header Menu Area =================-->
-	<header class="header_area position-sticky position-fixed">
-		<div class="main_menu ">
-			<nav class="navbar navbar-expand-lg navbar-light" >
-				<div class="container bg-white">
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<a class="navbar-brand logo_h" href="index.html">
-						<img src="/images/logo1.png" alt="" width="80" height="95">
+						<img src="images/logo1.png" alt=""width="80" height="95">
 					</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -126,45 +126,18 @@ margin-top: auto;
 							<li class="nav-item">
 								<a class="nav-link" href="index.html">TRANG CHỦ</a>
 							</li>
-							    <li class="nav-item submenu dropdown active">
-										<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-										 aria-expanded="false">ĐIỂM ĐẾN <i class="fa fa-caret-down"></i></a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="diemdenmienbac.html">MIỀN BẮC</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="diemdenmienbac.html">MIỀN TRUNG</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="diemdenmienbac.html">MIỀN NAM</a>
-                                            </li>
-                                        </ul>
-								</li>
+							<li class="nav-item">
+								<a class="nav-link" href="diemden.html">ĐIỂM ĐẾN</a>
 							</li>
-							<li class="nav-item submenu dropdown active">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">ẨM THỰC <i class="fa fa-caret-down"></i></a>
-							<ul class="dropdown-menu">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="amthuc.html">ẨM THỰC MIỀN BẮC</a>
-                                
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="amthuc.html">ẨM THỰC MIỀN TRUNG</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="amthuc.html">ẨM THỰC MIỀN NAM</a>
-                                </li>
-							</ul>
-						</li>
-					</li>
+							<li class="nav-item">
+								<a class="nav-link" href="amthuc.html">ẨM THỰC</a>
+							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="blog.html">BLOG</a>
 							</li>
 							<li class="nav-item submenu dropdown active">
-								<a href="#" class="nav-link dropdown-toggle text-info" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">LỜI KHUYÊN KHI ĐI DU LỊCH <i class="fa fa-caret-down"></i></a>
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								 aria-expanded="false">LỜI KHUYÊN KHI ĐI DU LỊCH</a>
 								<ul class="dropdown-menu">
 									<li class="nav-item">
 										<a class="nav-link" href="nhomdulich.html">DU LỊCH HỘI NHÓM</a>
@@ -176,6 +149,9 @@ margin-top: auto;
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="lienhe.html">LIÊN HỆ</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="gioithieu.html">GIỚI THIỆU</a>
 							</li>
 						</ul>
 						<ul class="nav navbar-nav ml-auto search">
@@ -336,33 +312,29 @@ margin-top: auto;
 		  </div>
 
 	 <!--================ start footer Area  =================-->
-	 <footer class="footer-area section-gap">
+	<hr class="custom-hr">
+	<footer class="footer-area mt-3">
 		<div class="container">
-			<div class="single-footer-widget footer_middle">
-				<img src="images/footer_logo.png" alt="" width="200" height="170">
-				<p class="mt-50">Stay updated with our latest trends</p>
-				<p class=" thongtin">Họ và tên: </p>Bàn Anh Dũng <br> Lục Thị Mộc <br> Khiếu Xuân Bách
-				<p class="thongtin">Lớp: </p>Khoa học máy tính K7C
+			<div class="single-footer-widget footer_middle col-md-12">
+				<p class="text-center col-12 mt-3">
+				Thông tin nhóm:<br>
+				<hr>
+				Bàn Anh Dũng <br> Lục Thị Mộc <br> Khiếu Xuân Bách<br>
+				<hr>
+				Khoa học máy tính K7C
+				</p>
+				<hr>
+				<a href="/index.html" class="fa fa-facebook mx-2"></a> 
+				<a href="/index.html" class="fa fa-github text-black-50 mx-2"></a> 
+				<a href="/index.html" class="fa fa-youtube text-danger mx-2"></a>
 			</div>
-			</div>
-			<div class="footer-bottom footer_copy">
-				<div class="footer-social">
-					<a href="#">
-						<i class="fa fa-facebook"></i>
-					</a>
-					<a href="#">
-						<i class="fa fa-twitter"></i>
-					</a>
-				</div>
-				<p class="col-lg-12 footer-text">
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-				Copyright &copy;
-				<script>document.write(new Date().getFullYear());
-				</script> WE ARE ONE | BẢN QUYỀN THUỘC VỀ NHÓM 1
-				<i class="fa fa-heart-o" aria-hidden="true"></i>
+			<p class="col-lg-12 footer-text" style="text-align: center;">
+				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			Copyright &copy;
+			<script>document.write(new Date().getFullYear());
+			</script> WE ARE ONE | BẢN QUYỀN THUỘC VỀ NHÓM 1
+			<i class="fa fa-heart-o" aria-hidden="true"></i>
 			
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-			</div>
 		</div>
 	</footer>
 	<!--================ End footer Area  =================-->
@@ -392,6 +364,7 @@ margin-top: auto;
 	<script src="js/wow.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
 	<script src="js/theme.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 
 </html>
